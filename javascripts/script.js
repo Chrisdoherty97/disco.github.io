@@ -1,8 +1,8 @@
   // Init PubNub
 
 var p = PUBNUB.init({
-  subscribe_key: 'demo',
-  publish_key:   'demo'
+  subscribe_key: 'sub-c-d5b343d8-3943-11e6-a169-02ee2ddab7fe',
+  publish_key:   'pub-c-61695fa6-317d-42aa-8f73-1bead73191ad'
 });
 
 // Sending data
