@@ -9,7 +9,7 @@ var p = PUBNUB.init({
 
 function disco() {
   p.publish({
-    channel : 'Disco', // This is the channel name you are subscribing in remote-led.py
+    channel : 'channel', // This is the channel name you are subscribing in remote-led.py
     message : {led: 1}
   });
 }
