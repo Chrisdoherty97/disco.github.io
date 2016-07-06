@@ -77,7 +77,7 @@
 	// DOM
 	var button = document.querySelector('button'); 
 	// This is the channel name you are subscribing in remote-led.py
-	var channel = 'Channel-264zwleql';
+	var channel = 'Disco';
 	// Init - Get your own keys at admin.pubnub.com
 	var p = PUBNUB.init({
 		subscribe_key: 'sub-c-d5b343d8-3943-11e6-a169-02ee2ddab7fe',
@@ -86,7 +86,7 @@
 	// Sending data
 	function disco() {
     p.publish({
-      channel : Channel-264zwleql, 
+      channel : Disco, 
       message : {led: 1}
     });
   }
